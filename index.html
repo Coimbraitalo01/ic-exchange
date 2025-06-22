@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC Exchange - Plataforma de Investimentos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .top-bar {
+            background-color: #111;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .top-links a {
+            color: #ffcc00;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .main-header {
+            background-color: #0a0a0a;
+            padding: 20px 0;
+        }
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .main-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn-primary {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #000;
+        }
+        .hero {
+            padding: 60px 0;
+            background: linear-gradient(to right, #111, #000);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .btn-lg {
+            padding: 12px 24px;
+            font-size: 16px;
+        }
+        .btn-outline {
+            background: none;
+            border: 2px solid #ffcc00;
+            color: #ffcc00;
+            margin-left: 10px;
+        }
+        .products {
+            padding: 40px 0;
+            background-color: #111;
+        }
+        .product-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            max-width: 300px;
+        }
+        .product-icon i {
+            font-size: 30px;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+        .main-footer {
+            background-color: #0a0a0a;
+            padding: 40px 0;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer-links {
+            display: flex;
+            gap: 40px;
+        }
+        .link-group h4 {
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        .link-group a {
+            display: block;
+            color: #ccc;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+        .footer-copy {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <span>Acompanhe seu assessor <strong>IC Exchange</strong></span>
+            <div class="top-links">
+                <a href="#"><i class="fas fa-user"></i> Área do Cliente</a>
+                <a href="#"><i class="fas fa-phone"></i> Fale Conosco</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="IC Exchange" width="150">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Para Você</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Conteúdo</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">Abra sua conta</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Invista no que realmente importa para você</h1>
+            <p>Na IC Exchange, você investe do seu jeito, com segurança e tecnologia avançada</p>
+            <div class="hero-buttons">
+                <button class="btn btn-lg btn-primary">Comece agora</button>
+                <button class="btn btn-lg btn-outline">Simule seus investimentos</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2 style="text-align:center; color:#ffcc00">Conheça nossos produtos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Renda Variável</h3>
+                    <p>Ações, ETFs e Fundos Imobiliários</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Renda Fixa</h3>
+                    <p>CDB, LCI, LCA e muito mais</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Internacional</h3>
+                    <p>Invista no exterior com segurança</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="IC Exchange" width="120">
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Institucional</h4>
+                        <a href="#">Sobre nós</a>
+                        <a href="#">Trabalhe conosco</a>
+                        <a href="#">Imprensa</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Produtos</h4>
+                        <a href="#">Renda Variável</a>
+                        <a href="#">Renda Fixa</a>
+                        <a href="#">Fundos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; <span id="current-year"></span> IC Exchange. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

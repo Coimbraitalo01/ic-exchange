@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC Exchange - Plataforma de Investimentos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Acompanhe seu assessor <strong>IC Exchange</strong></span>
+            <div class="top-links">
+                <a href="#"><i class="fas fa-user"></i> Área do Cliente</a>
+                <a href="#"><i class="fas fa-phone"></i> Fale Conosco</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="IC Exchange" width="150">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Para Você</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Conteúdo</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">Abra sua conta</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Invista no que realmente importa para você</h1>
+            <p>Na IC Exchange, você investe do seu jeito, com segurança e tecnologia avançada</p>
+            <div class="hero-buttons">
+                <button class="btn btn-lg btn-primary">Comece agora</button>
+                <button class="btn btn-lg btn-outline">Simule seus investimentos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Conheça nossos produtos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Renda Variável</h3>
+                    <p>Ações, ETFs e Fundos Imobiliários</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Renda Fixa</h3>
+                    <p>CDB, LCI, LCA e muito mais</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Internacional</h3>
+                    <p>Invista no exterior com segurança</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="IC Exchange" width="120">
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Institucional</h4>
+                        <a href="#">Sobre nós</a>
+                        <a href="#">Trabalhe conosco</a>
+                        <a href="#">Imprensa</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Produtos</h4>
+                        <a href="#">Renda Variável</a>
+                        <a href="#">Renda Fixa</a>
+                        <a href="#">Fundos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; <span id="current-year"></span> IC Exchange. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

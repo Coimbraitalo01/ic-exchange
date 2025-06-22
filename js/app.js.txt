@@ -1,0 +1,31 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Atualiza o ano no footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Efeito hover nos cards de produto
+    const productCards = document.querySelectorAll('.product-card');
+    productCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+            this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = '';
+            this.style.boxShadow = '';
+        });
+    });
+
+    // Menu mobile (será melhorado)
+    const menuToggle = document.createElement('button');
+    menuToggle.className = 'menu-toggle';
+    menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    menuToggle.addEventListener('click', function() {
+        document.querySelector('.main-nav').classList.toggle('active');
+    });
+
+    // Verificação de erros
+    window.addEventListener('error', function(e) {
+        console.error('Error:', e.message);
+    });
+});
