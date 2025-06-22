@@ -7,8 +7,6 @@
 
 > Projeto front-end fictício inspirado na XP Investimentos, desenvolvido para demonstrar habilidades técnicas e atenção a detalhes de UI/UX.
 
-![Screenshot da Plataforma](/assets/preview.png) *(adicione uma imagem real depois)*
-
 ---
 
 ## 🎯 Objetivo Profissional
