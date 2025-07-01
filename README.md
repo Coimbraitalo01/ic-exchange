@@ -1,5 +1,5 @@
 # 💼 IC-Exchange - Plataforma de Investimentos (Projeto Educacional)
-
+Preview: https://github.com/Coimbraitalo01/ic-exchange/blob/main/printic.png
 [![GitHub Stars](https://img.shields.io/github/stars/Coimbraitalo01/ic-exchange?style=social)](https://github.com/Coimbraitalo01/ic-exchange/stargazers)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
